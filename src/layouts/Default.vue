@@ -30,7 +30,7 @@
                 <li class="">
                   <a
                     class="rounded-t bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                    href="#"
+                    href="/products/asphalt"
                     >Asphalt</a
                   >
                 </li>
@@ -51,7 +51,7 @@
                 
                 <li class="">
                   <a
-                    class="rounded-b bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    class="rounded-b bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap disabled"
                     href="#"
                     >Seafood !Upcoming</a
                   >
@@ -71,6 +71,12 @@
         </ul>
       </nav>
     </header>
+
+    <div class="fixed bottom-0 right-0 whatsapp">
+      <a href=" https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products">
+        <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" alt="">
+      </a>
+    </div>
 
     <!-- Page Content -->
     <main class="flex-grow">
@@ -153,5 +159,10 @@ query {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.whatsapp{
+  max-width: 4rem;
+  min-width: 1rem
 }
 </style>

@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <h1 class="text-xl mb-2">Welcome to your Blog!</h1>
+    <h1 class="text-xl mb-2">Blog site is on the way! Please wait patiently</h1>
 
     <div class="space-y-4">
       <BlogFeedPost

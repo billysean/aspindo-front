@@ -12,7 +12,7 @@
         </div>
       </div>
       <div
-        class="hero container md:container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
+        class="container md:container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
       >
         <div
           class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left"
@@ -25,9 +25,9 @@
     <section class="bg-white">
       <div class="mx-auto">
         <div class="flex flex-wrap">
-          <div class="px-32 w-full md:w-1/2 lg:w-1/2">
+          <div class="md:px-32 w-full md:w-1/2 lg:w-1/2">
             <h1 class="text-3xl font-bold py-1">
-              Our Comopany - Aspindo Mutual Group
+              Our Company - Aspindo Mutual Group
             </h1>
             <p class="text-justify text-xl font-light py-2">
               Founded in 1980, Aspindo Mutual Group has grown into an
@@ -50,7 +50,7 @@
           </div>
           <div class="w-full sm:w-1/2">
             <img
-              src="../asset/asphalt-road.png"
+              src="../asset/hq.png"
               alt="headoffice"
               class="w-full h-full"
             />
@@ -64,8 +64,8 @@
         <div class="flex flex-wrap">
           <div class="mx-auto">
             <iframe
-              width="560"
-              height="315"
+              width="100%"
+              height="100%"
               src="https://www.youtube-nocookie.com/embed/3O_3X7InOw8"
               title="YouTube video player"
               frameborder="0"
