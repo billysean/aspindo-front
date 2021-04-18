@@ -1,0 +1,47 @@
+ <!-- <div class="flex justify-center items-center absolute" style="bottom:-20rem;right:10rem;">
+        <div class="bg-white p-10 shadow-md">
+          <h1 class="text-xl font-bold">OUR CORE VALUES</h1>
+          <div class="mt-4 mb-10">
+            <p class="text-gray-600 py-2"><span class="text-black font-bold">EXCELLENT SERVICE</span> is our COMMITMENT.</p>
+            <p class="text-gray-600 py-2"><span class="text-black font-bold">CUSTOMER SATISFACTION</span> is our VALUE.</p>
+            <p class="text-gray-600 py-2"><span class="text-black font-bold">EXPANSION</span> is our MISSION.</p>
+          </div>
+          <button class="bg-red-600 text-white py-3 px-8 mt-4 rounded text-lg font-semibold hover:bg-opacity-75">SUBMIT INQUIRIES</button>
+        </div>
+      </div>  -->
+
+      <!-- BG-ASPHALT ALTERNATIVE -->
+      <img class="absolute h-screen" style="z-index:-1; max-width:100%" src="../asset/asphalt-road.png" alt="" >
+      <div class="bg-asphalt py-24 px-48"> 
+        <h1 class="text-white block px-3 py-2 rounded-md text-5xl font-black">
+          Indonesia Leading <br> 
+          Asphalt Solution.
+        </h1>
+        <h1 class="text-red-600 block px-3 py-1 rounded-md text-5xl font-bold ">DELIVERED.</h1>
+        <h1 class="text-red-600 block px-3 py-1 rounded-md text-5xl font-bold ">ON SCHEDULE.</h1>
+        <h1 class="text-red-600 block px-3 py-1 rounded-md text-5xl font-bold ">SATISFIED.</h1>
+      </div>
+
+      
+      <div class="bg-brown-dark">
+        <div class="grid grid-cols-8 gap-5 px-5 py-10">
+          <div class="col-start-2 col-span-3">
+            <h1 class="text-white text-3xl font-bold">Aspindo Mutual Group</h1>
+            <p class="text-white py-4 font-medium">
+              Founded in 1980, Aspindo Mutual Group has grown into
+              an industry-leading Asphalt manufacturer in Indonesia. 
+              Our services include providing solution to infrastructure 
+              requirements and shipment across the nation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <section id="Product Selection">
+        <div class="container">
+          CBAD
+        </div>
+      </section>
+      <p>This is a simple minimal blog starter made with <a class="text-gray-500" href="https://gridsome.org/">Gridsome</a> x <a class="text-gray-500" href="https://tailwindcss.com/">TailwindCSS</a>.</p>
+      <p><a class="text-gray-500" href="https://ciaran.co.za/">Created by Ciaran.</a></p>

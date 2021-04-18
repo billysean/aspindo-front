@@ -5,9 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Minimal Tailwind Starter',
-  siteUrl: '',
-  siteDescription: 'A simple starter for Gridsome using TailwindCSS and Markdown',
+  siteName: 'Aspindo Mutual Group',
+  siteUrl: 'https://aspindomutual.co.id',
+  siteDescription: 'Aspindo Mutual Group website for you to understand us and our prooducts better. Get in touch now!',
   templates: {
     Post: '/blog/:title'
   },
