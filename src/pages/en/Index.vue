@@ -1,29 +1,41 @@
 <template>
   <Layout>
     <section>
-      <img
-        class="absolute sm:h-auto w-screen"
-        style="z-index: -1"
-        src="../asset/asphalt-road.png"
-        alt=""
-      />
       <div
-        class="hero container md:container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
+        class="absolute inset-0 lg:opacity-100 opacity-75"
+        style="z-index: -1"
       >
-        <div
-          class=" text-6xl font-bold w-full sm:w-4/5 text-center sm:text-left"
-        >
-          <div class="uppercase text-white">
-            Indonesia's Leading <br> Asphalt & LPG Specialists
-          </div>
-          <div class="uppercase text-red-600">Delivered.</div>
-          <div class="uppercase text-red-600">Innovative.</div>
-          <div class="uppercase text-red-600">Satisfied.</div>
-        </div>
+        <img
+          class="object-cover w-full h-full bg-black"
+          src="../../asset/asphalt-road.png"
+          alt="asphalt road"
+        />
       </div>
     </section>
 
-    <section class="bg-brown-dark py-16 sm:py-8">
+    <div class="container mx-auto lg:mt-48 lg:mb-10 lg:px-16 px-4 py-4">
+      <div>
+        <h1
+          class="uppercase text-white font-bold text-6xl tracking-wide"
+        >
+          Indonesia's Leading <br />
+          Asphalt & LPG Specialists
+        </h1>
+        <h2 class="uppercase text-red-600 font-bold text-3xl">
+          Delivered.
+        </h2>
+        <h2 class="uppercase text-red-600 font-bold text-3xl">
+          Innovative.
+        </h2>
+        <h2 class="uppercase text-red-600 font-bold text-3xl">
+          Satisfied.
+        </h2>
+      </div>
+    </div>
+
+    <section
+      class="bg-brown-dark py-10 sm:py-8 container mx-auto my-6 lg:px-16 px-4"
+    >
       <div class="container md:container-inner mx-auto text-white">
         <div class="w-full sm:w-1/2">
           <h1 class="text-4xl font-bold py-1">Aspindo Mutual Group</h1>
@@ -37,7 +49,7 @@
       </div>
 
       <div
-        class="flex justify-center items-center absolute hidden lg:block"
+        class="justify-center items-center absolute hidden lg:block"
         style="bottom: -15rem; right: 10rem"
       >
         <div class="bg-white p-10 shadow-md">
@@ -56,15 +68,20 @@
               MISSION.
             </p>
           </div>
-          <button
-            class="bg-red-600 text-white py-3 px-8 mt-4 rounded text-lg font-semibold hover:bg-opacity-75"
+          <a
+            href="https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products"
           >
-            Call us on Whatsapp
-          </button>
+            <button
+              class="bg-red-600 text-white py-3 px-8 mt-4 rounded text-lg font-semibold hover:bg-opacity-75"
+            >
+              Call us on Whatsapp
+            </button>
+          </a>
         </div>
       </div>
     </section>
 
+    <!-- Product Selection
     <section class="bg-white py-10">
       <div class="container-inner mx-auto">
         <div class="text-center border-b">
@@ -72,7 +89,7 @@
         </div>
         <div class="flex flex-wrap -mx-1 lg:-mx-4">
           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
+            
             <article class="overflow-hidden rounded-lg shadow-lg">
               <a href="#">
                 <img
@@ -90,7 +107,6 @@
                     Asphalt
                   </a>
                 </h1>
-                <!-- <p class="text-grey-darker text-sm">Rp 300.000,-</p> -->
               </header>
 
               <a
@@ -114,7 +130,11 @@
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <p class="ml-2 text-sm font-bold">Send Inquiries</p>
+                  <a
+                    href="mailto:bsean@aspindogroup.com?subject=Asphalt web Inquiry&body=Tell me more about your Asphalt industry!"
+                  >
+                    <p class="ml-2 text-sm font-bold">Send Inquiries</p>
+                  </a>
                 </div>
               </a>
 
@@ -139,10 +159,10 @@
                 </div>
               </a>
             </article>
-            <!-- END Article -->
+
           </div>
           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
+            
             <article class="overflow-hidden rounded-lg shadow-lg">
               <a href="#">
                 <img
@@ -160,7 +180,6 @@
                     LPG
                   </a>
                 </h1>
-                <!-- <p class="text-grey-darker text-sm">Rp 300.000,-</p> -->
               </header>
 
               <a
@@ -184,7 +203,11 @@
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <p class="ml-2 text-sm font-bold">Send Inquiries</p>
+                  <a
+                    href="mailto:bsean@aspindogroup.com?subject=LPG Web Inquiry&body=Tell me more about your LPG industry!"
+                  >
+                    <p class="ml-2 text-sm font-bold">Send Inquiries</p>
+                  </a>
                 </div>
               </a>
 
@@ -209,10 +232,10 @@
                 </div>
               </a>
             </article>
-            <!-- END Article -->
+
           </div>
           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
+            
             <article class="overflow-hidden rounded-lg shadow-lg">
               <a href="#">
                 <img
@@ -230,7 +253,6 @@
                     BBM
                   </a>
                 </h1>
-                <!-- <p class="text-grey-darker text-sm">Rp 300.000,-</p> -->
               </header>
 
               <a
@@ -254,7 +276,11 @@
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <p class="ml-2 text-sm font-bold">Send Inquiries</p>
+                  <a
+                    href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your BBM industry!"
+                  >
+                    <p class="ml-2 text-sm font-bold">Send Inquiries</p>
+                  </a>
                 </div>
               </a>
 
@@ -279,10 +305,12 @@
                 </div>
               </a>
             </article>
-            <!-- END Article -->
+
           </div>
-           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 opacity-50">
-            <!-- Article -->
+          <div
+            class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 opacity-50"
+          >
+            
             <article class="overflow-hidden rounded-lg shadow-lg">
               <a href="#">
                 <img
@@ -300,7 +328,6 @@
                     Seafood !Upcoming
                   </a>
                 </h1>
-                <!-- <p class="text-grey-darker text-sm">Rp 300.000,-</p> -->
               </header>
 
               <a
@@ -324,7 +351,11 @@
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <p class="ml-2 text-sm font-bold">Send Inquiries</p>
+                  <a
+                    href="mailto:bsean@aspindogroup.com?subject=Seafood Web Inquiry&body=Tell me more about your seafood industry!"
+                  >
+                    <p class="ml-2 text-sm font-bold">Send Inquiries</p>
+                  </a>
                 </div>
               </a>
 
@@ -349,40 +380,151 @@
                 </div>
               </a>
             </article>
-            <!-- END Article -->
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- <section class="bg-white py-10">
-      <div class="container-inner mx-auto">
-        <div class="text-center border-b">
-          <h2 class="font-bold mb-6 text-4xl">OUR SERVICES</h2>
-        </div>
-        <div class="flex flex-wrap -mx-1 lg:-mx-4">
-          <div class="w-1/4">
-            <img
-              alt="Placeholder"
-              class="block h-auto w-full"
-              src="https://picsum.photos/600/400/?random"
-            />
-          </div>
-          <div class="2/4">
-            <h2>Shipping</h2>
-            <p align="left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Laudantium minus soluta voluptate, perferendis consequatur
-              praesentium magni beatae ipsum ex! Deleniti dolore dicta
-              asperiores, tempore molestiae ab ducimus reprehenderit nisi
-              eligendi.
-            </p>
           </div>
         </div>
       </div>
     </section> -->
 
-    <section class="bg-white py-16 sm:py-8 text-black">
+    <section>
+      <div class="container mx-auto my-6 lg:px-16 px-4">
+        <h2
+          class="flex items-center leading-normal text-black font-bold text-4xl"
+        >
+          Product Selection
+        </h2>
+      </div>
+
+      <div
+        class="flex items-stretch justify-between mb-10 px-4 overflow-x-auto relative"
+      >
+        <a href="#" class="relative group block mr-4 flex-shrink-0">
+          <div
+            class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
+          >
+            <div>
+              <h3 class="text-lg mb-2">ASPHALT</h3>
+              <p class="leading-normal text-sm">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores facilis inventore tempore reprehenderit a totam ullam
+                autem dignissimos suscipit aliquam quam voluptatum qui nihil
+                magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
+              </p>
+              <a href="#" class="sm:px-4 ">
+                <button
+                  class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                >
+                  submit inquiry
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="uppercase bg-gray-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                >
+                  Download Catalog
+                </button>
+              </a>
+            </div>
+          </div>
+          <img src="../../asset/asphalt.png" alt="" />
+        </a>
+
+        <a href="#" class="relative group block mr-4 flex-shrink-0">
+          <div
+            class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
+          >
+            <div>
+              <h3 class="text-lg mb-2">LPG</h3>
+              <p class="leading-normal text-sm">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores facilis inventore tempore reprehenderit a totam ullam
+                autem dignissimos suscipit aliquam quam voluptatum qui nihil
+                magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
+              </p>
+              <a href="#" class="sm:px-4 ">
+                <button
+                  class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                >
+                  submit inquiry
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="uppercase bg-gray-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                >
+                  Download Catalog
+                </button>
+              </a>
+            </div>
+          </div>
+          <img src="../../asset/lpg.png" alt="" />
+        </a>
+
+        <a href="#" class="relative group block mr-4 flex-shrink-0">
+          <div
+            class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
+          >
+            <div>
+              <h3 class="text-lg mb-2">BBM</h3>
+              <p class="leading-normal text-sm">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores facilis inventore tempore reprehenderit a totam ullam
+                autem dignissimos suscipit aliquam quam voluptatum qui nihil
+                magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
+              </p>
+              <a href="#" class="sm:px-4 ">
+                <button
+                  class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                >
+                  submit inquiry
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="uppercase bg-gray-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                >
+                  Download Catalog
+                </button>
+              </a>
+            </div>
+          </div>
+          <img src="../../asset/bbm.png" alt="" />
+        </a>
+
+        <a href="#" class="relative group block mr-4 flex-shrink-0">
+          <div
+            class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
+          >
+            <div>
+              <h3 class="text-lg mb-2">SEAFOOD</h3>
+              <p class="leading-normal text-sm">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores facilis inventore tempore reprehenderit a totam ullam
+                autem dignissimos suscipit aliquam quam voluptatum qui nihil
+                magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
+              </p>
+              <a href="#" class="sm:px-4 ">
+                <button
+                  class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                >
+                  submit inquiry
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="uppercase bg-gray-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                >
+                  Download Catalog
+                </button>
+              </a>
+            </div>
+          </div>
+          <img src="../../asset/seafood.png" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <!-- <section class="bg-white py-16 sm:py-8 text-black">
       <div class="container md:container-inner mx-auto text-white">
         <div class="w-full sm:w-1/2">
           <h1 class="text-2xl bottom-b-2 font-bold py-1">Our Services</h1>
@@ -394,7 +536,7 @@
           </p>
         </div>
       </div>
-    </section>
+    </section> -->
   </Layout>
 </template>
 
@@ -424,8 +566,8 @@ export default {
 }
 
 .container-inner {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 @media (min-width: 640px) {
@@ -453,9 +595,9 @@ export default {
 }
 
 .image {
-    height: 80vh;
-    /* width: 100vw; */
-    background: rgba(0,0,0,.4);
-    overflow: hidden;
+  height: 80vh;
+  /* width: 100vw; */
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
 </style>

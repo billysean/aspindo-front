@@ -6,7 +6,7 @@
           <img
             class="absolute sm:h-auto w-screen"
             style="z-index: -1"
-            src="../../asset/newswall.webp"
+            src="../../../asset/newspaper.jpg"
             alt=""
           />
         </div>

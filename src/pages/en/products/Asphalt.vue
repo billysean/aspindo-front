@@ -1,5 +1,27 @@
 <template>
   <Layout>
+    <section>
+      <div class="h-10">
+        <div class="image">
+          <img
+            class="absolute sm:h-auto w-screen"
+            style="z-index: -1"
+            src="../../../asset/asphalt.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="container md:container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
+      >
+        <div
+          class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left"
+        >
+          <div class="uppercase text-white">All about asphalt</div>
+        </div>
+      </div>
+    </section>
+
     <section class="bg-white py-10">
       <div class="container-inner mx-auto">
         <div class="border-b">
@@ -26,7 +48,7 @@
             </p>
           </div>
           <div class="w-full md:w-1/3 md:pt-6 flex justify-end">
-            <img src="../../asset/drum pertamina.png" alt="" width="100%" />
+            <img src="../../../asset/drum pertamina.png" alt="" width="100%" />
           </div>
         </div>
       </div>
@@ -40,12 +62,12 @@
         <div class="flex flex-wrap">
           <div class="w-full md:w-2/3">
             <p align="justify">
-            Sending Bulk Asphalt throughout the island of Java in Indonesia with
-            approximate weight of 15 tons (nett) per tanker
-          </p>
+              Sending Bulk Asphalt throughout the island of Java in Indonesia
+              with approximate weight of 15 tons (nett) per tanker
+            </p>
           </div>
           <div class="w-full md:w-1/3 md:pt-6 flex justify-end">
-            <img src="../../asset/drum pertamina.png" alt="" width="100%" />
+            <img src="../../../asset/drum pertamina.png" alt="" width="100%" />
           </div>
         </div>
       </div>
@@ -59,13 +81,13 @@
         <div class="flex flex-wrap">
           <div class="w-full md:w-2/3">
             <p align="justify">
-            Our plan to provide better services not only to our customers but
-            also contributing in being go-green, we provide you with a Platinum
-            Asphalt Bag with nett weight of 30kg & 50kg.
-          </p>
+              Our plan to provide better services not only to our customers but
+              also contributing in being go-green, we provide you with a
+              Platinum Asphalt Bag with nett weight of 30kg & 50kg.
+            </p>
           </div>
           <div class="w-full md:w-1/3 md:pt-6 flex justify-end">
-            <img src="../../asset/drum pertamina.png" alt="" width="100%" />
+            <img src="../../../asset/drum pertamina.png" alt="" width="100%" />
           </div>
         </div>
       </div>
