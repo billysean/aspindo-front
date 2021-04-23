@@ -8,7 +8,7 @@
       >
         <div class="mb-4 sm:mb-0">
           <a href="/en">
-          <img src="../asset/aspindo_logo.png" alt="" class="lg:h-24 sm:h-10">
+          <img src="../asset/aspindo_logo.png" alt="" class="lg:h-24 sm:h-10 h-16">
           </a>
         </div>
         <ul class="uppercase tracking-wide font-bold flex items-center">
