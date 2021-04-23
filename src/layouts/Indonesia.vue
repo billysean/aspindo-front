@@ -2,14 +2,12 @@
   <div
     class="font-sans text-gray-800 leading-normal flex flex-col min-h-screen"
   >
-    <header class="bg-white ">
+    <header class="bg-white">
       <nav
         class="container mx-auto flex flex-col sm:flex-row justify-between items-center py-8"
       >
         <div class="mb-4 sm:mb-0">
-          <a href="/en">
-          <img src="../asset/aspindo_logo.png" alt="" class="lg:h-24 sm:h-10">
-          </a>
+          <a href="/">Aspindo Mutual Group</a>
         </div>
         <ul class="uppercase tracking-wide font-bold flex items-center">
           <li class="mr-8">
@@ -32,7 +30,7 @@
                 <li class="">
                   <a
                     class="rounded-t bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                    href="/en/products/asphalt"
+                    href="/products/asphalt"
                     >Asphalt</a
                   >
                 </li>
@@ -62,13 +60,13 @@
             </div>
           </li>
           <li class="mr-8">
-            <a href="/en/blog" class="text-gray-800 hover:text-gray-600">Blog</a>
+            <a href="#" class="text-gray-800 hover:text-gray-600">Blog</a>
           </li>
           <li class="mr-8">
-            <a href="/en/about" class="text-gray-800 hover:text-gray-600">About</a>
+            <a href="/about" class="text-gray-800 hover:text-gray-600">About</a>
           </li>
           <li class="mr-8">
-            <a href="/en/contact" class="text-gray-800 hover:text-gray-600">Contact</a>
+            <a href="#" class="text-gray-800 hover:text-gray-600">Contact</a>
           </li>
         </ul>
       </nav>
@@ -88,8 +86,7 @@
     <footer class="bg-brown-dark text-white">
       <div class="container mx-auto flex justify-between py-8">
         <div class="w-2/4">
-        <img src="../asset/aspindo_logo.png" alt="" class=" h-24">
-          <a class="text-2xl font-bold" href="/en"> Aspindo Mutual Group </a>
+          <a class="text-2xl font-bold" href="/"> Aspindo Mutual Group </a>
         </div>
         <div class="w-1/4">
           <h2 class="uppercase text-2xl font-bold">About</h2>

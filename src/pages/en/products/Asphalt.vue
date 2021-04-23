@@ -1,16 +1,17 @@
 <template>
   <Layout>
     <section>
-      <div class="h-10">
-        <div class="image">
-          <img
-            class="absolute sm:h-auto w-screen"
-            style="z-index: -1"
-            src="../../../asset/asphalt.jpg"
-            alt=""
-          />
-        </div>
+      <div
+        class="absolute inset-0 lg:opacity-100 opacity-75"
+        style="z-index: -1"
+      >
+        <img
+          class="object-cover w-full h-full bg-black"
+          src="../../../asset/asphalt.jpg"
+          alt="asphalt"
+        />
       </div>
+
       <div
         class="container md:container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
       >
@@ -23,73 +24,139 @@
     </section>
 
     <section class="bg-white py-10">
-      <div class="container-inner mx-auto">
-        <div class="border-b">
-          <h2 class="font-bold mb-6 text-4xl">Drum Asphalt</h2>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-full md:w-2/3">
-            <h1 class="text-lg font-semibold py-1">Pertamina</h1>
+      <div class="container mt-4 mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div
+            class="card m-2 cursor-pointer border border-gray-400 hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200"
+          >
+            <span
+              class="mt-2 font-normal text-sm text-red-800 font-mono bg-red-100 inline px-2 align-top float-right animate-pulse"
+              >Asphalt</span
+            >
+            <div class="m-3 pt-16">
+              <h2
+                class="pb-6 text-xl text-center mb-2 font-bold border-b border-gray-700 uppercase"
+              >
+                Drum Asphalt
+              </h2>
+              <p
+                class="font-normal text-lg text-gray-700 hover:text-gray-900 hover:font-medium transition-all duration-200 px-8"
+              >
+                Aspal Pen 60/70 <br />
+                <br />
+                155kg nett weight <br />
+                <br />
+                International Quality <br />
+                <br />
+                Ship Nationwide <br />
+                <br />
+              </p>
 
-            <p class="pb-6" align="justify">
-              Shipping Pertamina asphalt mixture with 155kg nett in weight
-              (160kg with the drum) throughout the continent
-            </p>
-
-            <h1 class="font-semibold text-lg">ESSO by EXXON</h1>
-            <p align="justify">
-              Partnering with Brentag as official ESSO Drum distributor in
-              Indonesia, we are appointed as the 2nd Chanel Distributor in
-              Indonesia.
-              <br />*Marketing through Sister Company
-              <span class="font-semibold">
-                PT. Energi Global Perkasa Abadi
-              </span>
-            </p>
+              <div class="text-center">
+                <button
+                  class="bg-red-600 text-white py-3 px-3 mt-4 rounded text-sm font-semibold hover:bg-opacity-75"
+                >
+                  Download Catalog
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="w-full md:w-1/3 md:pt-6 flex justify-end">
-            <img src="../../../asset/drum pertamina.png" alt="" width="100%" />
+
+          <div
+            class="card m-2 cursor-pointer border border-gray-400 hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200"
+          >
+            <span
+              class="mt-2 font-normal text-sm text-red-800 font-mono bg-red-100 inline px-2 align-top float-right animate-pulse"
+              >Asphalt</span
+            >
+            <div class="m-3 pt-16">
+              <h2
+                class="pb-6 text-xl text-center mb-2 font-bold border-b border-gray-700 uppercase"
+              >
+                Bag Asphalt
+              </h2>
+              <p
+                class="font-normal text-lg text-gray-700 hover:text-gray-900 hover:font-medium transition-all duration-200 px-8"
+              >
+                Aspal Pen 60/70 <br />
+                <br />
+                30 & 50kg nett weight <br />
+                <br />
+                International Quality <br />
+                <br />
+                Ship Nationwide <br />
+                <br />
+              </p>
+
+              <div class="text-center">
+                <button
+                  class="bg-red-600 text-white py-3 px-3 mt-4 rounded text-sm font-semibold hover:bg-opacity-75"
+                >
+                  Download Catalog
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="card m-2 cursor-pointer border border-gray-400 hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200"
+          >
+            <span
+              class="mt-2 font-normal text-sm text-red-800 font-mono bg-red-100 inline px-2 align-top float-right animate-pulse"
+              >Asphalt</span
+            >
+            <div class="m-3 pt-16">
+              <h2
+                class="pb-6 text-xl text-center mb-2 font-bold border-b border-gray-700 uppercase"
+              >
+                Bulk Asphalt
+              </h2>
+              <p
+                class="font-normal text-lg text-gray-700 hover:text-gray-900 hover:font-medium transition-all duration-200 px-8"
+              >
+                Aspal Pen 60/70 <br />
+                <br />
+                15 tonnes nett weight <br />
+                <br />
+                International Quality <br />
+                <br />
+                Ship Java Island <br />
+                <br />
+              </p>
+
+              <div class="text-center">
+                <button
+                  class="bg-red-600 text-white py-3 px-3 mt-4 rounded text-sm font-semibold hover:bg-opacity-75"
+                >
+                  Download Catalog
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="bg-white py-10">
-      <div class="container-inner mx-auto">
-        <div class="border-b">
-          <h2 class="font-bold mb-6 text-4xl">Bulk Asphalt</h2>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-full md:w-2/3">
-            <p align="justify">
-              Sending Bulk Asphalt throughout the island of Java in Indonesia
-              with approximate weight of 15 tons (nett) per tanker
-            </p>
+      <div class="container mt-4 mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="justify-self-center sm:col-span-2">
+            <img src="../../../asset/pertamina.png" alt="" class=" h-24">
           </div>
-          <div class="w-full md:w-1/3 md:pt-6 flex justify-end">
-            <img src="../../../asset/drum pertamina.png" alt="" width="100%" />
+          <div class="justify-self-center sm:col-span-2">
+            <img src="../../../asset/esso.png" alt="" class="h-24">
           </div>
         </div>
       </div>
     </section>
 
     <section class="bg-white py-10">
-      <div class="container-inner mx-auto">
-        <div class="border-b">
-          <h2 class="font-bold mb-6 text-4xl">Bag Asphalt</h2>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-full md:w-2/3">
-            <p align="justify">
-              Our plan to provide better services not only to our customers but
-              also contributing in being go-green, we provide you with a
-              Platinum Asphalt Bag with nett weight of 30kg & 50kg.
-            </p>
-          </div>
-          <div class="w-full md:w-1/3 md:pt-6 flex justify-end">
-            <img src="../../../asset/drum pertamina.png" alt="" width="100%" />
-          </div>
-        </div>
+      <div class="container mt-4 mx-auto">
+        <h1>Partnering With Pertamina</h1>
+        <p align="justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vel ducimus beatae modi minima, 
+          culpa quasi nobis quo nihil delectus distinctio dolore, sed quas! Laudantium corporis quo cum aliquid ad.
+        </p>
       </div>
     </section>
   </Layout>

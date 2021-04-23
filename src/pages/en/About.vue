@@ -25,7 +25,7 @@
     <section class="bg-white">
       <div class="mx-auto">
         <div class="flex flex-wrap">
-          <div class="md:px-32 w-full md:w-1/2 lg:w-1/2">
+          <div class="md:px-32 w-full lg:w-1/2">
             <h1 class="text-3xl font-bold py-1">
               Our Company - Aspindo Mutual Group
             </h1>
@@ -48,7 +48,7 @@
               in SCBD area, Jakarta in 2021.
             </p>
           </div>
-          <div class="w-full sm:w-1/2">
+          <div class="w-full lg:w-1/2" style="text-align: -webkit-center;">
             <img
               src="../../asset/hq.png"
               alt="headoffice"

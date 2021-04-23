@@ -1,10 +1,7 @@
 <template>
   <Layout>
     <section>
-      <div
-        class="absolute inset-0 lg:opacity-100 opacity-75"
-        style="z-index: -1"
-      >
+      <div class="absolute inset-0 opacity-100" style="z-index: -1">
         <img
           class="object-cover w-full h-full bg-black"
           src="../../asset/asphalt-road.png"
@@ -15,68 +12,62 @@
 
     <div class="container mx-auto lg:mt-48 lg:mb-10 lg:px-16 px-4 py-4">
       <div>
-        <h1
-          class="uppercase text-white font-bold text-6xl tracking-wide"
-        >
+        <h1 class="uppercase text-white font-bold text-6xl tracking-wide">
           Indonesia's Leading <br />
           Asphalt & LPG Specialists
         </h1>
-        <h2 class="uppercase text-red-600 font-bold text-3xl">
-          Delivered.
-        </h2>
-        <h2 class="uppercase text-red-600 font-bold text-3xl">
-          Innovative.
-        </h2>
-        <h2 class="uppercase text-red-600 font-bold text-3xl">
-          Satisfied.
-        </h2>
+        <h2 class="uppercase text-red-600 font-bold text-3xl">Delivered.</h2>
+        <h2 class="uppercase text-red-600 font-bold text-3xl">Innovative.</h2>
+        <h2 class="uppercase text-red-600 font-bold text-3xl">Satisfied.</h2>
       </div>
     </div>
 
-    <section
-      class="bg-brown-dark py-10 sm:py-8 container mx-auto my-6 lg:px-16 px-4"
-    >
-      <div class="container md:container-inner mx-auto text-white">
-        <div class="w-full sm:w-1/2">
-          <h1 class="text-4xl font-bold py-1">Aspindo Mutual Group</h1>
-          <p class="text-justify text-xl font-light py-2">
-            Founded in 1980, Aspindo Mutual Group has grown into an
-            industry-leading Asphalt manufacturer in Indonesia. Our services
-            include providing solution to infrastructure requirements and
-            shipment across the nation.
-          </p>
-        </div>
-      </div>
-
+    <section class="bg-white pb-6">
       <div
-        class="justify-center items-center absolute hidden lg:block"
-        style="bottom: -15rem; right: 10rem"
+        class="bg-red-600 py-10 sm:py-8 container mx-auto my-6 lg:px-16 px-4"
       >
-        <div class="bg-white p-10 shadow-md">
-          <h1 class="text-3xl font-bold text-center">OUR CORE VALUES</h1>
-          <div class="mt-4 mb-10">
-            <p class="text-gray-600 py-2">
-              <span class="text-black font-bold">EXCELLENT SERVICE</span> is our
-              COMMITMENT.
-            </p>
-            <p class="text-gray-600 py-2">
-              <span class="text-black font-bold">CUSTOMER SATISFACTION</span> is
-              our VALUE.
-            </p>
-            <p class="text-gray-600 py-2">
-              <span class="text-black font-bold">EXPANSION</span> is our
-              MISSION.
+        <div class="container md:container-inner mx-auto text-white">
+          <div class="w-full sm:w-1/2">
+            <h1 class="text-4xl font-bold py-1">Aspindo Mutual Group</h1>
+            <p class="text-justify text-xl font-light py-2">
+              Founded in 1980, Aspindo Mutual Group has grown into an
+              industry-leading Asphalt manufacturer in Indonesia. Our services
+              include providing solution to infrastructure requirements and
+              shipment across the nation.
             </p>
           </div>
-          <a
-            href="https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products"
-          >
-            <button
-              class="bg-red-600 text-white py-3 px-8 mt-4 rounded text-lg font-semibold hover:bg-opacity-75"
+        </div>
+
+        <div
+          class="justify-center items-center absolute hidden lg:block"
+          style="bottom: -15rem; right: 10rem"
+        >
+          <div class="bg-white p-10 shadow-md">
+            <h1 class="text-3xl font-bold text-center">OUR CORE VALUES</h1>
+            <div class="mt-4 mb-10">
+              <p class="text-gray-600 py-2">
+                <span class="text-black font-bold">EXCELLENT SERVICE</span> is
+                our COMMITMENT.
+              </p>
+              <p class="text-gray-600 py-2">
+                <span class="text-black font-bold">CUSTOMER SATISFACTION</span>
+                is our VALUE.
+              </p>
+              <p class="text-gray-600 py-2">
+                <span class="text-black font-bold">EXPANSION</span> is our
+                MISSION.
+              </p>
+            </div>
+            <a
+              href="https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products"
             >
-              Call us on Whatsapp
-            </button>
-          </a>
+              <button
+                class="bg-red-600 text-white py-3 px-8 mt-4 rounded text-lg font-semibold hover:bg-opacity-75"
+              >
+                Call us on Whatsapp
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -386,10 +377,10 @@
       </div>
     </section> -->
 
-    <section>
+    <section class="bg-white py-16">
       <div class="container mx-auto my-6 lg:px-16 px-4">
         <h2
-          class="flex items-center leading-normal text-black font-bold text-4xl"
+          class="flex items-center leading-normal text-black font-bold text-4xl uppercase"
         >
           Product Selection
         </h2>
@@ -404,13 +395,17 @@
           >
             <div>
               <h3 class="text-lg mb-2">ASPHALT</h3>
-              <p class="leading-normal text-sm">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores facilis inventore tempore reprehenderit a totam ullam
-                autem dignissimos suscipit aliquam quam voluptatum qui nihil
-                magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
+              <p class="leading-normal text-xs">
+                We are one of the biggest Asphalt Suppliers in Indonesia. With
+                31 years of experience, we are committed to provide better
+                experience and services to our business partners.
+                <br />
+                <br />
+                Our products are shipped in :
+                <br />
+                Drums | Bulk | Platinum Bag
               </p>
-              <a href="#" class="sm:px-4 ">
+              <a href="#" class="sm:px-4">
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
@@ -441,7 +436,7 @@
                 autem dignissimos suscipit aliquam quam voluptatum qui nihil
                 magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
               </p>
-              <a href="#" class="sm:px-4 ">
+              <a href="#" class="sm:px-4">
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
@@ -472,7 +467,7 @@
                 autem dignissimos suscipit aliquam quam voluptatum qui nihil
                 magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
               </p>
-              <a href="#" class="sm:px-4 ">
+              <a href="#" class="sm:px-4">
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
@@ -498,12 +493,11 @@
             <div>
               <h3 class="text-lg mb-2">SEAFOOD</h3>
               <p class="leading-normal text-sm">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores facilis inventore tempore reprehenderit a totam ullam
-                autem dignissimos suscipit aliquam quam voluptatum qui nihil
-                magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
+                With the help of KML Group, We are expanding our business to
+                seafood export and import.
               </p>
-              <a href="#" class="sm:px-4 ">
+              <p class="text-red-600 font-bold">Stay Tune for more</p>
+              <a href="#" class="sm:px-4">
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
@@ -524,19 +518,90 @@
       </div>
     </section>
 
-    <!-- <section class="bg-white py-16 sm:py-8 text-black">
-      <div class="container md:container-inner mx-auto text-white">
-        <div class="w-full sm:w-1/2">
-          <h1 class="text-2xl bottom-b-2 font-bold py-1">Our Services</h1>
+    <div class="inset-0 opacity-100 fixed" style="z-index: -2">
+      <img
+        class="object-cover w-screen h-screen"
+        src="../../asset/industry.jpg"
+        alt="industry-bg"
+      />
+    </div>
+
+    <section
+      class="bg-brown-dark py-10 sm:py-8 containermy-6 lg:px-16 px-4 bg-opacity-75"
+    >
+      <div class="container mx-auto flex justify-between py-8">
+        <div class="w-1/3 text-center" style="text-align: -webkit-center">
+          <h1 class="text-4xl font-bold py-1 uppercase"></h1>
+          <button
+            class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
+          >
+            <span class="sm:text-lg md:text-3xl lg:text-6xl"> 4</span> <br />
+            Asphalt Terminal
+          </button>
+        </div>
+        <div class="w-1/3 text-center" style="text-align: -webkit-center">
+          <h1 class="text-4xl font-bold py-1 uppercase"></h1>
+          <button
+            class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
+          >
+            <span class="sm:text-lg md:text-3xl lg:text-6xl"> 200</span> <br />
+            Tanker Truck
+          </button>
+        </div>
+        <div class="w-1/3 text-center" style="text-align: -webkit-center">
+          <h1 class="text-4xl font-bold py-1 uppercase"></h1>
+          <button
+            class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
+          >
+            <span class="sm:text-lg md:text-3xl lg:text-6xl"> 2</span> <br />
+            Tanker Ship
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-16 sm:py-8 text-black">
+      <div class="container mx-auto my-6 lg:px-16 px-4">
+        <h2
+          class="flex items-center leading-normal text-black font-bold text-4xl uppercase"
+        >
+          artillery
+        </h2>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="md:px-32 w-full lg:w-1/2">
+          <h1 class="text-3xl font-bold py-1">Truck</h1>
           <p class="text-justify text-xl font-light py-2">
-            Founded in 1980, Aspindo Mutual Group has grown into an
-            industry-leading Asphalt manufacturer in Indonesia. Our services
-            include providing solution to infrastructure requirements and
-            shipment across the nation.
+            In enabling a mobile transportation on land, PT.Aspindo has
+            dedicated itself to legally own 200 trucks available to increase
+            mobility and provide better customer experience.
+          </p>
+        </div>
+        <div
+          class="w-full lg:w-1/2 md:px-32 hidden lg:block"
+          style="text-align: -webkit-center"
+        >
+          <img src="../../asset/ship.png" alt="ship" />
+        </div>
+      </div>
+
+      <div class="flex flex-wrap md:pt-32">
+        <div
+          class="w-full lg:w-1/2 md:px-32 hidden lg:block"
+          style="text-align: -webkit-center"
+        >
+          <img src="../../asset/ship.png" alt="ship" />
+        </div>
+        <div class="md:px-32 w-full lg:w-1/2">
+          <h1 class="text-3xl font-bold py-1">Ship</h1>
+          <p class="text-justify text-xl font-light py-2">
+            As our business expands from 1980, PT.Aspindo has managed to legally
+            own 2 tangker ships to give better services to our business partners
+            as well a drastic cost reduction.
           </p>
         </div>
       </div>
-    </section> -->
+    </section>
   </Layout>
 </template>
 
