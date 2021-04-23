@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section>
-      <div class="absolute inset-0 opacity-100" style="z-index: -1">
+      <div class="absolute h-screen lg:inset-0 opacity-100" style="z-index: -1">
         <img
           class="object-cover w-full h-full bg-black"
           src="../../asset/asphalt-road.png"
