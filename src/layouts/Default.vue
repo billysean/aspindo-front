@@ -86,12 +86,12 @@
     </main>
 
     <footer class="bg-brown-dark text-white">
-      <div class="container mx-auto flex justify-between py-8">
-        <div class="w-2/4">
-        <img src="../asset/aspindo_logo.png" alt="" class=" h-24">
+      <div class="container mx-auto flex flex-wrap justify-between py-8">
+        <div class="w-full md:w-2/4">
+        <img src="../asset/aspindo_logo.png" alt="" class="h-12 md:h-24">
           <a class="text-2xl font-bold" href="/en"> Aspindo Mutual Group </a>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/2 pt-10 md:w-1/4 md:pt-0">
           <h2 class="uppercase text-2xl font-bold">About</h2>
           <a href="#">
             <h3
@@ -122,7 +122,7 @@
             </h3>
           </a>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/2 pt-10 md:w-1/4 md:pt-0">
           <h2 class="uppercase text-2xl font-bold">Contact</h2>
           <h3 class="uppercase font-bold text-lg py-2">Head Office</h3>
           <p>
@@ -137,8 +137,8 @@
           </p>
         </div>
       </div>
-      <div class="container mx-auto flex items-center justify-between py-8">
-        <div>Copyright 2021. All rights reserved.</div>
+      <div class="container mx-auto flex text-center justify-between py-8">
+        <h2>Copyright 2021. All rights reserved.</h2>
       </div>
     </footer>
   </div>
