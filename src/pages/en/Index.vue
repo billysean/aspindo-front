@@ -1,7 +1,10 @@
 <template>
   <Layout>
     <section>
-      <div class="absolute h-screen py-30 lg:inset-0 opacity-100" style="z-index: -1">
+      <div
+        class="absolute h-screen py-30 lg:inset-0 opacity-100"
+        style="z-index: -1"
+      >
         <img
           class="object-cover w-full h-full bg-black"
           src="../../asset/asphalt-road.png"
@@ -394,6 +397,22 @@
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
             <div>
+              <span
+                class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  /></svg
+              ></span>
               <h3 class="text-lg mb-2">ASPHALT</h3>
               <p class="leading-normal text-xs">
                 We are one of the biggest Asphalt Suppliers in Indonesia. With
@@ -429,6 +448,22 @@
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
             <div>
+              <span
+                class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  /></svg
+              ></span>
               <h3 class="text-lg mb-2">LPG</h3>
               <p class="leading-normal text-sm">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -445,7 +480,7 @@
               </a>
               <a href="">
                 <button
-                  class="uppercase bg-gray-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
+                  class="uppercase bg-gray-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:hidden"
                 >
                   Download Catalog
                 </button>
@@ -460,6 +495,22 @@
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
             <div>
+              <span
+                class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  /></svg
+              ></span>
               <h3 class="text-lg mb-2">BBM</h3>
               <p class="leading-normal text-sm">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -491,6 +542,22 @@
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
             <div>
+              <span
+                class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  /></svg
+              ></span>
               <h3 class="text-lg mb-2">SEAFOOD</h3>
               <p class="leading-normal text-sm">
                 With the help of KML Group, We are expanding our business to

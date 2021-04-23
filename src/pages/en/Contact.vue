@@ -1,28 +1,5 @@
 <template>
   <Layout>
-    <section>
-      <div
-        class="absolute inset-0 lg:opacity-100 opacity-75"
-        style="z-index: -1"
-      >
-        <img
-          class="object-cover w-full h-full bg-black"
-          src="../../asset/asphalt-road.png"
-          alt="asphalt"
-        />
-      </div>
-
-      <div
-        class="container md:container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
-      >
-        <div
-          class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left"
-        >
-          <div class="uppercase text-white">Contact Us</div>
-        </div>
-      </div>
-    </section>
-
     <section class="bg-brown-dark py-10 sm:py-8 containermy-6 lg:px-16 px-4">
       <div class="container md:container-inner mx-auto text-white">
         <div class="w-full sm:w-1/2">
@@ -41,7 +18,87 @@
     </section>
 
     <section class="">
-
+      <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1
+              class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+            >
+              Contact Us
+            </h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Put your name and email, we will surely get back to you.
+            </p>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-600"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600"
+                    >Message</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button
+                  class="flex mx-auto text-white bg-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-400 text-lg"
+                >
+                  Submit
+                </button>
+              </div>
+              <div
+                class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"
+              >
+                <a class="text-gray-500">example@aspindogroup.com</a>
+              </div>
+              <div class="p-2 w-1/2 border-gray-200 text-center">
+                <p class="leading-normal my-5">
+                  Head Office <br />
+                  Kertajaya 94 <br />Surabaya
+                </p>
+              </div>
+              <div class="p-2 w-1/2 border-gray-200 text-center">
+                <p class="leading-normal my-5">
+                  Jakarta <br />
+                  Treasury Tower, District 8 <br />SCBD, Jakarta Selatan
+                </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   </Layout>
 </template>

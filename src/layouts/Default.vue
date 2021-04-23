@@ -8,7 +8,7 @@
       >
         <div class="mb-4 sm:mb-0">
           <a href="/en">
-          <img src="../asset/aspindo_logo.png" alt="" class="lg:h-24 sm:h-10 h-16">
+          <img src="../asset/aspindo_logo.png" alt="" class=" lg:h-16 sm:h-10 h-16">
           </a>
         </div>
         <ul class="uppercase tracking-wide font-bold flex items-center">
@@ -74,7 +74,7 @@
       </nav>
     </header>
 
-    <div class="fixed bottom-0 right-0 whatsapp">
+    <div class="fixed bottom-0 right-0 w-10 sm:mb-3 sm:mr-1">
       <a href=" https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products">
         <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" alt="">
       </a>
