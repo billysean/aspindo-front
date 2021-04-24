@@ -7,7 +7,7 @@
       >
         <img
           class="object-cover w-full h-full bg-black"
-          src="../../../asset/asphalt.jpg"
+          src="../../asset/asphalt.jpg"
           alt="asphalt"
         />
       </div>
@@ -141,10 +141,10 @@
       <div class="container mt-4 mx-auto">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div class="justify-self-center sm:col-span-2">
-            <img src="../../../asset/pertamina.png" alt="" class=" h-24">
+            <img src="../../asset/pertamina.png" alt="" class=" h-24">
           </div>
           <div class="justify-self-center sm:col-span-2">
-            <img src="../../../asset/esso.png" alt="" class="h-24">
+            <img src="../../asset/esso.png" alt="" class="h-24">
           </div>
         </div>
       </div>

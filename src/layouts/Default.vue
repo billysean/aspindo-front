@@ -7,7 +7,7 @@
         class="container mx-auto flex flex-col sm:flex-row justify-between items-center py-8"
       >
         <div class="mb-4 sm:mb-0">
-          <a href="/en">
+          <a href="/">
           <img src="../asset/aspindo_logo.png" alt="" class=" lg:h-16 sm:h-10 h-16">
           </a>
         </div>
@@ -32,7 +32,7 @@
                 <li class="">
                   <a
                     class="rounded-t bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                    href="/en/products/asphalt"
+                    href="/products/asphalt"
                     >Asphalt</a
                   >
                 </li>
@@ -62,13 +62,13 @@
             </div>
           </li>
           <li class="mr-8">
-            <a href="/en/blog" class="text-gray-800 hover:text-gray-600">Blog</a>
+            <a href="/blog" class="text-gray-800 hover:text-gray-600">Blog</a>
           </li>
           <li class="mr-8">
-            <a href="/en/about" class="text-gray-800 hover:text-gray-600">About</a>
+            <a href="/about" class="text-gray-800 hover:text-gray-600">About</a>
           </li>
           <li class="mr-8">
-            <a href="/en/contact" class="text-gray-800 hover:text-gray-600">Contact</a>
+            <a href="/contact" class="text-gray-800 hover:text-gray-600">Contact</a>
           </li>
         </ul>
       </nav>
@@ -89,7 +89,7 @@
       <div class="container mx-auto flex flex-wrap justify-between py-8">
         <div class="w-full md:w-2/4">
         <img src="../asset/aspindo_logo.png" alt="" class="h-12 md:h-24">
-          <a class="text-2xl font-bold" href="/en"> Aspindo Mutual Group </a>
+          <a class="text-2xl font-bold" href=""> Aspindo Mutual Group </a>
         </div>
         <div class="w-1/2 pt-10 md:w-1/4 md:pt-0">
           <h2 class="uppercase text-2xl font-bold">About</h2>

@@ -7,7 +7,7 @@
       >
         <img
           class="object-cover w-full h-full bg-black"
-          src="../../asset/asphalt-road.png"
+          src="../asset/asphalt-road.png"
           alt="asphalt road"
         />
       </div>
@@ -440,7 +440,7 @@
               </a>
             </div>
           </div>
-          <img src="../../asset/asphalt.png" alt="" />
+          <img src="../asset/asphalt.png" alt="" />
         </a>
 
         <a href="#" class="relative group block mr-4 flex-shrink-0">
@@ -487,7 +487,7 @@
               </a>
             </div>
           </div>
-          <img src="../../asset/lpg.png" alt="" />
+          <img src="../asset/lpg.png" alt="" />
         </a>
 
         <a href="#" class="relative group block mr-4 flex-shrink-0">
@@ -534,7 +534,7 @@
               </a>
             </div>
           </div>
-          <img src="../../asset/bbm.png" alt="" />
+          <img src="../asset/bbm.png" alt="" />
         </a>
 
         <a href="#" class="relative group block mr-4 flex-shrink-0">
@@ -580,7 +580,7 @@
               </a>
             </div>
           </div>
-          <img src="../../asset/seafood.png" alt="" />
+          <img src="../asset/seafood.png" alt="" />
         </a>
       </div>
     </section>
@@ -588,7 +588,7 @@
     <div class="inset-0 opacity-100 fixed" style="z-index: -2">
       <img
         class="object-cover w-screen h-screen"
-        src="../../asset/industry.jpg"
+        src="../asset/industry.jpg"
         alt="industry-bg"
       />
     </div>
@@ -648,7 +648,7 @@
           class="w-full lg:w-1/2 md:px-32 hidden lg:block"
           style="text-align: -webkit-center"
         >
-          <img src="../../asset/ship.png" alt="ship" />
+          <img src="../asset/ship.png" alt="ship" />
         </div>
       </div>
 
@@ -657,7 +657,7 @@
           class="w-full lg:w-1/2 md:px-32 hidden lg:block"
           style="text-align: -webkit-center"
         >
-          <img src="../../asset/ship.png" alt="ship" />
+          <img src="../asset/ship.png" alt="ship" />
         </div>
         <div class="md:px-32 w-full lg:w-1/2">
           <h1 class="text-3xl font-bold py-1">Ship</h1>

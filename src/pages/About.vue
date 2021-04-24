@@ -6,7 +6,7 @@
         <img
           class="absolute sm:h-auto w-screen"
           style="z-index: -1;"
-          src="../../asset/blueprint.jpg"
+          src="../asset/blueprint.jpg"
           alt=""
         />
         </div>
@@ -50,7 +50,7 @@
           </div>
           <div class="w-full lg:w-1/2" style="text-align: -webkit-center;">
             <img
-              src="../../asset/hq.png"
+              src="../asset/hq.png"
               alt="headoffice"
               class="w-full h-full"
             />
