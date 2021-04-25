@@ -21,6 +21,14 @@ module.exports = {
     },
     {
       use: 'gridsome-plugin-tailwindcss',
+    },
+    {
+      use: 'gridsome-plugin-gtm',
+      options:{
+        id:'GTM-KB8VTRF',
+        enabled:true,
+        debug:true
+      }
     }
   ],
 }

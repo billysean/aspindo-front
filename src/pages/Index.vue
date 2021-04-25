@@ -652,7 +652,7 @@
         </div>
       </div>
 
-      <div class="flex flex-wrap md:pt-32">
+      <div class="flex flex-wrap lg:pt-32">
         <div
           class="w-full lg:w-1/2 md:px-32 hidden lg:block"
           style="text-align: -webkit-center"
