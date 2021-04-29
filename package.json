@@ -9,6 +9,8 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.3",
+    "aos": "^2.3.4",
+    "emailjs-com": "^2.6.4",
     "gridsome": "^0.7.0",
     "gridsome-plugin-gtm": "^0.1.1",
     "gridsome-plugin-tailwindcss": "^3.0.1"

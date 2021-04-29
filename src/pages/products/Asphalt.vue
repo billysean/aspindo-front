@@ -141,10 +141,10 @@
       <div class="container mt-4 mx-auto">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div class="justify-self-center sm:col-span-2">
-            <img src="../../asset/pertamina.png" alt="" class=" h-24">
+            <img src="../../asset/pertamina.png" alt="" class="h-24" />
           </div>
           <div class="justify-self-center sm:col-span-2">
-            <img src="../../asset/esso.png" alt="" class="h-24">
+            <img src="../../asset/esso.png" alt="" class="h-24" />
           </div>
         </div>
       </div>
@@ -152,10 +152,12 @@
 
     <section class="bg-white py-10">
       <div class="container mt-4 mx-auto">
-        <h1>Partnering With Pertamina</h1>
+        <h1 class="text-3xl font-bold">Partnering With Pertamina and Esso</h1>
         <p align="justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vel ducimus beatae modi minima, 
-          culpa quasi nobis quo nihil delectus distinctio dolore, sed quas! Laudantium corporis quo cum aliquid ad.
+          Partnering with Pertamina and Esso, two giant energy company, we
+          provide industrial level quality for all our asphalt. Our Team will
+          thoroughly check the measurements and specifications required for the
+          specific project you are working on.
         </p>
       </div>
     </section>

@@ -7,15 +7,28 @@
         class="container mx-auto flex flex-col sm:flex-row justify-between items-center py-8"
       >
         <div class="mb-4 sm:mb-0">
-          <a href="/">Aspindo Mutual Group</a>
+          <a href="/">
+            <img
+              src="../asset/aspindo_logo.png"
+              alt=""
+              class="lg:h-16 sm:h-10 h-16"
+            />
+          </a>
         </div>
         <ul class="uppercase tracking-wide font-bold flex items-center">
+          <li class="mr-8">
+            <a href="/" class="text-gray-800 hover:text-gray-600">Home</a>
+          </li>
           <li class="mr-8">
             <div class="dropdown inline-block relative">
               <button
                 class="text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center"
               >
-                <span class="uppercase text-gray-800 hover:text-gray-600 mr-1">Products</span>
+              <a href="/#products">
+                <span class="uppercase text-gray-800 hover:text-gray-600 mr-1"
+                  >Products</span
+                >
+              </a>
                 <svg
                   class="fill-current h-4 w-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -44,11 +57,11 @@
                 <li class="">
                   <a
                     class="bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                    href="#"
+                    href="/products/bbm"
                     >BBM</a
                   >
                 </li>
-                
+
                 <li class="">
                   <a
                     class="rounded-b bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap disabled"
@@ -60,21 +73,33 @@
             </div>
           </li>
           <li class="mr-8">
-            <a href="#" class="text-gray-800 hover:text-gray-600">Blog</a>
+            <a href="/blog" class="text-gray-800 hover:text-gray-600">Blog</a>
           </li>
           <li class="mr-8">
             <a href="/about" class="text-gray-800 hover:text-gray-600">About</a>
           </li>
           <li class="mr-8">
-            <a href="#" class="text-gray-800 hover:text-gray-600">Contact</a>
+            <a href="/contact" class="text-gray-800 hover:text-gray-600"
+              >Contact</a
+            >
+          </li>
+          <li class="mr-8">
+            <a href="/" class="text-red-600 hover:text-red-400"
+              >EN</a
+            >
           </li>
         </ul>
       </nav>
     </header>
 
-    <div class="fixed bottom-0 right-0 whatsapp">
-      <a href=" https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products">
-        <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" alt="">
+    <div class="fixed bottom-0 right-0 w-10 sm:mb-3 sm:mr-1">
+      <a
+        href=" https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products"
+      >
+        <img
+          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
+          alt=""
+        />
       </a>
     </div>
 
@@ -84,42 +109,47 @@
     </main>
 
     <footer class="bg-brown-dark text-white">
-      <div class="container mx-auto flex justify-between py-8">
-        <div class="w-2/4">
-          <a class="text-2xl font-bold" href="/"> Aspindo Mutual Group </a>
+      <div class="container mx-auto flex flex-wrap justify-between py-8">
+        <div class="w-full md:w-2/4">
+          <img
+            src="../asset/aspindo_logo.png"
+            alt=""
+            class="lg:h-16 sm:h-10 h-16"
+          />
+          <a class="text-2xl font-bold" href=""> Aspindo Mutual Group </a>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/2 pt-10 md:w-1/4 md:pt-0">
           <h2 class="uppercase text-2xl font-bold">About</h2>
-          <a href="#">
+          <a href="#products">
             <h3
               class="uppercase text-red-600 hover:text-red-500 font-bold text-lg py-2"
             >
-              Asphalt
+              Products
             </h3>
           </a>
-          <a href="#">
+          <a href="/blog">
             <h3
               class="uppercase text-red-600 hover:text-red-500 font-bold text-lg py-2"
             >
               Blog
             </h3>
           </a>
-          <a href="#">
+          <a href="/about">
             <h3
               class="uppercase text-red-600 hover:text-red-500 font-bold text-lg py-2"
             >
               About
             </h3>
           </a>
-          <a href="#">
+          <!-- <a href="#">
             <h3
               class="uppercase text-red-600 hover:text-red-500 font-bold text-lg py-2"
             >
               Privacy Policy
             </h3>
-          </a>
+          </a> -->
         </div>
-        <div class="w-1/4">
+        <div class="w-1/2 pt-10 md:w-1/4 md:pt-0">
           <h2 class="uppercase text-2xl font-bold">Contact</h2>
           <h3 class="uppercase font-bold text-lg py-2">Head Office</h3>
           <p>
@@ -134,8 +164,8 @@
           </p>
         </div>
       </div>
-      <div class="container mx-auto flex items-center justify-between py-8">
-        <div>Copyright 2021. All rights reserved.</div>
+      <div class="container mx-auto flex text-center justify-between py-8">
+        <h2>Copyright 2021. All rights reserved.</h2>
       </div>
     </footer>
   </div>
@@ -161,8 +191,8 @@ query {
   display: block;
 }
 
-.whatsapp{
+.whatsapp {
   max-width: 4rem;
-  min-width: 1rem
+  min-width: 1rem;
 }
 </style>

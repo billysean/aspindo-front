@@ -17,13 +17,18 @@
         </div>
         <ul class="uppercase tracking-wide font-bold flex items-center">
           <li class="mr-8">
+            <a href="/" class="text-gray-800 hover:text-gray-600">Home</a>
+          </li>
+          <li class="mr-8">
             <div class="dropdown inline-block relative">
               <button
                 class="text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center"
               >
+              <a href="/#products">
                 <span class="uppercase text-gray-800 hover:text-gray-600 mr-1"
                   >Products</span
                 >
+              </a>
                 <svg
                   class="fill-current h-4 w-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +57,7 @@
                 <li class="">
                   <a
                     class="bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                    href="#"
+                    href="/products/bbm"
                     >BBM</a
                   >
                 </li>
@@ -76,6 +81,11 @@
           <li class="mr-8">
             <a href="/contact" class="text-gray-800 hover:text-gray-600"
               >Contact</a
+            >
+          </li>
+          <li class="mr-8">
+            <a href="/id" class="text-red-600 hover:text-red-400"
+              >ID</a
             >
           </li>
         </ul>
@@ -110,34 +120,34 @@
         </div>
         <div class="w-1/2 pt-10 md:w-1/4 md:pt-0">
           <h2 class="uppercase text-2xl font-bold">About</h2>
-          <a href="#">
+          <a href="#products">
             <h3
               class="uppercase text-red-600 hover:text-red-500 font-bold text-lg py-2"
             >
-              Asphalt
+              Products
             </h3>
           </a>
-          <a href="#">
+          <a href="/blog">
             <h3
               class="uppercase text-red-600 hover:text-red-500 font-bold text-lg py-2"
             >
               Blog
             </h3>
           </a>
-          <a href="#">
+          <a href="/about">
             <h3
               class="uppercase text-red-600 hover:text-red-500 font-bold text-lg py-2"
             >
               About
             </h3>
           </a>
-          <a href="#">
+          <!-- <a href="#">
             <h3
               class="uppercase text-red-600 hover:text-red-500 font-bold text-lg py-2"
             >
               Privacy Policy
             </h3>
-          </a>
+          </a> -->
         </div>
         <div class="w-1/2 pt-10 md:w-1/4 md:pt-0">
           <h2 class="uppercase text-2xl font-bold">Contact</h2>

@@ -8,11 +8,13 @@
           </h1>
         </div>
         <div class="justify-end sm:w-1/2">
+        <a href="to:bsean@aspindogroup.com?subject=COVID-19 Question&body=I have question in regards to your service in this current COVID condition">
           <button
             class="bg-red-600 text-white py-3 px-8 mt-4 text-lg font-semibold hover:bg-opacity-75"
           >
             Email Us Now
           </button>
+        </a>
         </div>
       </div>
     </section>
@@ -22,7 +24,7 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
             <h1
-              class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+              class="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900"
             >
               Contact Us
             </h1>
@@ -30,6 +32,7 @@
               Put your name and email, we will surely get back to you.
             </p>
           </div>
+              <form @submit.prevent="sendEmail">
           <div class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
               <div class="p-2 w-1/2">
@@ -40,7 +43,7 @@
                   <input
                     type="text"
                     id="name"
-                    name="name"
+                    name="user_name"
                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -53,7 +56,7 @@
                   <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="user_email"
                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -76,7 +79,7 @@
                 >
                   Submit
                 </button>
-              </div>
+              </div> 
               <div
                 class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"
               >
@@ -97,8 +100,26 @@
               
             </div>
           </div>
+          </form>
         </div>
       </section>
     </section>
   </Layout>
 </template>
+
+<script>
+import emailjs from 'emailjs-com';
+
+export default {
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('service_2ba1p0e', 'template_wpewr8t', e.target, 'user_u2gM4HbzaCEFMf93EE07C')
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+    }
+  }
+}
+</script>

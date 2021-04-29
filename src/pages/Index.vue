@@ -15,24 +15,24 @@
 
     <div class="container mx-auto lg:mt-48 lg:mb-10 lg:px-16 px-4 py-4">
       <div>
-        <h1 class="uppercase text-white font-bold text-6xl tracking-wide">
+        <h1 class="uppercase text-white font-bold lg:text-6xl md:text-3xl text-xl tracking-wide lg:-mt-16" data-aos="fade-up" data-aos-duration="1000">
           Indonesia's Leading <br />
-          Asphalt & LPG Specialists
+          Industrial Supplier
         </h1>
-        <h2 class="uppercase text-red-600 font-bold text-3xl">Delivered.</h2>
-        <h2 class="uppercase text-red-600 font-bold text-3xl">Innovative.</h2>
-        <h2 class="uppercase text-red-600 font-bold text-3xl">Satisfied.</h2>
+        <h2 class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl" data-aos="fade-up" data-aos-duration="1000">Delivered.</h2>
+        <h2 class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl" data-aos="fade-up" data-aos-duration="1000">Innovative.</h2>
+        <h2 class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl" data-aos="fade-up" data-aos-duration="1000">Satisfied.</h2>
       </div>
     </div>
 
     <section class="bg-white pb-6">
-      <div
+      <div data-aos="fade-up" data-aos-duration="1000"
         class="bg-red-600 py-10 sm:py-8 container mx-auto my-6 lg:px-16 px-4"
       >
         <div class="container md:container-inner mx-auto text-white">
           <div class="w-full sm:w-1/2">
-            <h1 class="text-4xl font-bold py-1">Aspindo Mutual Group</h1>
-            <p class="text-justify text-xl font-light py-2">
+            <h1 class="lg:text-4xl text-3xl font-bold py-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Aspindo Mutual Group</h1>
+            <p class="text-justify lg:text-xl sm:text-sm font-light py-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
               Founded in 1980, Aspindo Mutual Group has grown into an
               industry-leading Asphalt manufacturer in Indonesia. Our services
               include providing solution to infrastructure requirements and
@@ -40,9 +40,9 @@
             </p>
           </div>
         </div>
-
-        <div
-          class="justify-center items-center absolute hidden lg:block"
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1000"
+          class="justify-center items-center absolute hidden xl:block xxl:hidden"
           style="bottom: -15rem; right: 10rem"
         >
           <div class="bg-white p-10 shadow-md">
@@ -72,7 +72,6 @@
             </a>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- Product Selection
@@ -380,10 +379,10 @@
       </div>
     </section> -->
 
-    <section class="bg-white py-16">
+    <section id="product" class="bg-white py-16">
       <div class="container mx-auto my-6 lg:px-16 px-4">
-        <h2
-          class="flex items-center leading-normal text-black font-bold text-4xl uppercase"
+        <h2 data-aos="fade-up" data-aos-duration="1000"
+          class="flex items-center leading-normal text-black font-bold lg:text-4xl text-3xl uppercase"
         >
           Product Selection
         </h2>
@@ -392,7 +391,7 @@
       <div
         class="flex items-stretch justify-between mb-10 px-4 overflow-x-auto relative"
       >
-        <a href="#" class="relative group block mr-4 flex-shrink-0">
+        <a data-aos="fade-up" data-aos-duration="1000" href="#" class="relative group block mr-4 flex-shrink-0">
           <div
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
@@ -424,11 +423,11 @@
                 <br />
                 Drums | Bulk | Platinum Bag
               </p>
-              <a href="#" class="sm:px-4">
+              <a href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your Asphalt Product!" class="sm:px-4">
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
-                  submit inquiry
+                  Submit Inquiry
                 </button>
               </a>
               <a href="">
@@ -440,10 +439,10 @@
               </a>
             </div>
           </div>
-          <img src="../asset/asphalt.png" alt="" />
+          <img src="../asset/asphalt.png" alt=""/>
         </a>
 
-        <a href="#" class="relative group block mr-4 flex-shrink-0">
+        <a data-aos="fade-up" data-aos-duration="1000" href="#" class="relative group block mr-4 flex-shrink-0">
           <div
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
@@ -471,11 +470,11 @@
                 autem dignissimos suscipit aliquam quam voluptatum qui nihil
                 magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
               </p>
-              <a href="#" class="sm:px-4">
+              <a href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your LPG industry!" class="sm:px-4">
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
-                  submit inquiry
+                  Submit Inquiry
                 </button>
               </a>
               <a href="">
@@ -490,7 +489,7 @@
           <img src="../asset/lpg.png" alt="" />
         </a>
 
-        <a href="#" class="relative group block mr-4 flex-shrink-0">
+        <a data-aos="fade-up" data-aos-duration="1000" href="#" class="relative group block mr-4 flex-shrink-0">
           <div
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
@@ -518,11 +517,11 @@
                 autem dignissimos suscipit aliquam quam voluptatum qui nihil
                 magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
               </p>
-              <a href="#" class="sm:px-4">
+              <a href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your BBM industry!" class="sm:px-4">
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
-                  submit inquiry
+                  Submit Inquiry
                 </button>
               </a>
               <a href="">
@@ -537,7 +536,7 @@
           <img src="../asset/bbm.png" alt="" />
         </a>
 
-        <a href="#" class="relative group block mr-4 flex-shrink-0">
+        <a data-aos="fade-up" data-aos-duration="1000" href="#" class="relative group block mr-4 flex-shrink-0">
           <div
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
@@ -564,11 +563,11 @@
                 seafood export and import.
               </p>
               <p class="text-red-600 font-bold">Stay Tune for more</p>
-              <a href="#" class="sm:px-4">
+              <a href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your Seafood industry!" class="sm:px-4">
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
-                  submit inquiry
+                  Submit Inquiry
                 </button>
               </a>
               <a href="">
@@ -593,7 +592,7 @@
       />
     </div>
 
-    <section
+    <section id="artillery"
       class="bg-brown-dark py-10 sm:py-8 containermy-6 lg:px-16 px-4 bg-opacity-75"
     >
       <div class="container mx-auto flex justify-between py-8">
@@ -602,7 +601,7 @@
           <button
             class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
           >
-            <span class="sm:text-lg md:text-3xl lg:text-6xl"> 4</span> <br />
+            <span class="sm:text-3xl lg:text-6xl"> 4</span> <br />
             Asphalt Terminal
           </button>
         </div>
@@ -611,7 +610,7 @@
           <button
             class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
           >
-            <span class="sm:text-lg md:text-3xl lg:text-6xl"> 200</span> <br />
+            <span class="sm:text-3xl lg:text-6xl"> 200</span> <br />
             Tanker Truck
           </button>
         </div>
@@ -620,7 +619,7 @@
           <button
             class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
           >
-            <span class="sm:text-lg md:text-3xl lg:text-6xl"> 2</span> <br />
+            <span class="sm:text-3xl lg:text-6xl"> 2</span> <br />
             Tanker Ship
           </button>
         </div>
@@ -629,26 +628,26 @@
 
     <section class="bg-white py-16 sm:py-8 text-black">
       <div class="container mx-auto my-6 lg:px-16 px-4">
-        <h2
-          class="flex items-center leading-normal text-black font-bold text-4xl uppercase"
+        <h2 data-aos="fade-up" data-aos-duration="1000"
+          class="flex items-center leading-normal text-black font-bold lg:text-4xl text-3xl uppercase"
         >
           artillery
         </h2>
       </div>
       <div class="flex flex-wrap">
-        <div class="md:px-32 w-full lg:w-1/2">
-          <h1 class="text-3xl font-bold py-1">Truck</h1>
-          <p class="text-justify text-xl font-light py-2">
+        <div class="sm:px-16 md:px-32 w-full lg:w-1/2">
+          <h1 data-aos="fade-up" data-aos-duration="1000" class=";g:text-3xl text-2xl font-semibold py-1">Truck</h1>
+          <p data-aos="fade-up" data-aos-duration="1000" class="text-justify text-xl font-light py-2">
             In enabling a mobile transportation on land, PT.Aspindo has
             dedicated itself to legally own 200 trucks available to increase
             mobility and provide better customer experience.
           </p>
         </div>
-        <div
+        <div 
           class="w-full lg:w-1/2 md:px-32 hidden lg:block"
           style="text-align: -webkit-center"
         >
-          <img src="../asset/ship.png" alt="ship" />
+          <img data-aos="fade-up" data-aos-duration="1000" src="../asset/ship.png" alt="ship" />
         </div>
       </div>
 
@@ -657,11 +656,11 @@
           class="w-full lg:w-1/2 md:px-32 hidden lg:block"
           style="text-align: -webkit-center"
         >
-          <img src="../asset/ship.png" alt="ship" />
+          <img data-aos="fade-up" data-aos-duration="1000" src="../asset/ship.png" alt="ship" />
         </div>
-        <div class="md:px-32 w-full lg:w-1/2">
-          <h1 class="text-3xl font-bold py-1">Ship</h1>
-          <p class="text-justify text-xl font-light py-2">
+        <div class="sm:px-16 sm:pt-16 md:px-32 w-full lg:w-1/2">
+          <h1 data-aos="fade-up" data-aos-duration="1000" class="text-2xl lg:text-3xl font-semibold py-1">Ship</h1>
+          <p data-aos="fade-up" data-aos-duration="1000" class="text-justify text-xl font-light py-2">
             As our business expands from 1980, PT.Aspindo has managed to legally
             own 2 tangker ships to give better services to our business partners
             as well a drastic cost reduction.
