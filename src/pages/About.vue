@@ -59,167 +59,40 @@
       </div>
     </section>
 
-    <section id="video">
-      <div class="bg-gray-200 mx-auto py-16">
-        <div class="flex flex-wrap">
-          <div class="mx-auto">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube-nocookie.com/embed/3O_3X7InOw8"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+    <section id="artillery"
+      class="bg-gray-700 py-10 sm:py-8 containermy-6 lg:px-16 px-4"
+    >
+      <div class="container mx-auto flex justify-between py-8">
+        <div class="w-1/3 text-center" style="text-align: -webkit-center">
+          <h1 class="text-4xl font-bold py-1 uppercase"></h1>
+          <button
+            class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
+          >
+            <span class="sm:text-3xl lg:text-6xl"> 18</span> <br />
+            Asphalt Awards
+          </button>
+        </div>
+        <div class="w-1/3 text-center" style="text-align: -webkit-center">
+          <h1 class="text-4xl font-bold py-1 uppercase"></h1>
+          <button
+            class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
+          >
+            <span class="sm:text-3xl lg:text-6xl"> </span> <br />
+            
+          </button>
+        </div>
+        <div class="w-1/3 text-center" style="text-align: -webkit-center">
+          <h1 class="text-4xl font-bold py-1 uppercase"></h1>
+          <button
+            class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
+          >
+            <span class="sm:text-3xl lg:text-6xl"> 1</span> <br />
+            LPG Awards
+          </button>
         </div>
       </div>
     </section>
 
-    <section class="bg-white py-10">
-      <div class="container-inner mx-auto">
-        <div class="text-center border-b">
-          <h2 class="uppercase font-bold mb-6 text-4xl">
-            Awards & Participation
-          </h2>
-        </div>
-        <div class="flex flex-wrap -mx-1 lg:-mx-4">
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-        </div>
-
-        <div class="flex flex-wrap -mx-1 lg:-mx-4">
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-        </div>
-
-        <div class="flex flex-wrap -mx-1 lg:-mx-4">
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-              <a href="#">
-                <img
-                  alt="Placeholder"
-                  class="block h-auto w-full"
-                  src="https://picsum.photos/600/400/?random"
-                />
-              </a>
-            </article>
-
-            <!-- END Article -->
-          </div>
-        </div>
-      </div>
-    </section>
   </Layout>
 </template>
 
