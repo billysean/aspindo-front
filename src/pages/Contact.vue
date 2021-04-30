@@ -80,11 +80,11 @@
                   Submit
                 </button>
               </div> 
-              <div
+              <!-- <div
                 class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"
               >
                 <a class="text-gray-500">example@aspindogroup.com</a>
-              </div>
+              </div> -->
               <div class="p-2 w-1/2 border-gray-200 text-center">
                 <p class="leading-normal my-5">
                   Head Office <br />
