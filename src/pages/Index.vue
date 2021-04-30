@@ -15,24 +15,60 @@
 
     <div class="container mx-auto lg:mt-48 lg:mb-10 lg:px-16 px-4 py-4">
       <div>
-        <h1 class="uppercase text-white font-bold lg:text-6xl md:text-3xl text-xl tracking-wide lg:-mt-16" data-aos="fade-up" data-aos-duration="1000">
+        <h1
+          class="uppercase text-white font-bold lg:text-6xl md:text-3xl text-xl tracking-wide lg:-mt-16"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Indonesia's Leading <br />
           Industrial Supplier
         </h1>
-        <h2 class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl" data-aos="fade-up" data-aos-duration="1000">Delivered.</h2>
-        <h2 class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl" data-aos="fade-up" data-aos-duration="1000">Innovative.</h2>
-        <h2 class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl" data-aos="fade-up" data-aos-duration="1000">Satisfied.</h2>
+        <h2
+          class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Delivered.
+        </h2>
+        <h2
+          class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Innovative.
+        </h2>
+        <h2
+          class="uppercase text-red-600 font-bold text-sm lg:text-3xl md:text-xl"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Satisfied.
+        </h2>
       </div>
     </div>
 
     <section class="bg-white pb-6">
-      <div data-aos="fade-up" data-aos-duration="1000"
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         class="bg-red-600 py-10 sm:py-8 container mx-auto my-6 lg:px-16 px-4"
       >
         <div class="container md:container-inner mx-auto text-white">
           <div class="w-full sm:w-1/2">
-            <h1 class="lg:text-4xl text-3xl font-bold py-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Aspindo Mutual Group</h1>
-            <p class="text-justify lg:text-xl sm:text-sm font-light py-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <h1
+              class="lg:text-4xl text-3xl font-bold py-1"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              Aspindo Mutual Group
+            </h1>
+            <p
+              class="text-justify lg:text-xl sm:text-sm font-light py-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               Founded in 1980, Aspindo Mutual Group has grown into an
               industry-leading Asphalt manufacturer in Indonesia. Our services
               include providing solution to infrastructure requirements and
@@ -41,37 +77,39 @@
           </div>
         </div>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1000"
-          class="justify-center items-center absolute hidden xl:block xxl:hidden"
-          style="bottom: -15rem; right: 10rem"
-        >
-          <div class="bg-white p-10 shadow-md">
-            <h1 class="text-3xl font-bold text-center">OUR CORE VALUES</h1>
-            <div class="mt-4 mb-10">
-              <p class="text-gray-600 py-2">
-                <span class="text-black font-bold">EXCELLENT SERVICE</span> is
-                our COMMITMENT.
-              </p>
-              <p class="text-gray-600 py-2">
-                <span class="text-black font-bold">CUSTOMER SATISFACTION</span>
-                is our VALUE.
-              </p>
-              <p class="text-gray-600 py-2">
-                <span class="text-black font-bold">EXPANSION</span> is our
-                MISSION.
-              </p>
-            </div>
-            <a
-              href="https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products"
-            >
-              <button
-                class="bg-red-600 text-white py-3 px-8 mt-4 rounded text-lg font-semibold hover:bg-opacity-75"
-              >
-                Call us on Whatsapp
-              </button>
-            </a>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        class="justify-center items-center absolute hidden xl:block xxl:hidden"
+        style="bottom: -15rem; right: 10rem"
+      >
+        <div class="bg-white p-10 shadow-md">
+          <h1 class="text-3xl font-bold text-center">OUR CORE VALUES</h1>
+          <div class="mt-4 mb-10">
+            <p class="text-gray-600 py-2">
+              <span class="text-black font-bold">EXCELLENT SERVICE</span> is our
+              COMMITMENT.
+            </p>
+            <p class="text-gray-600 py-2">
+              <span class="text-black font-bold">CUSTOMER SATISFACTION</span>
+              is our VALUE.
+            </p>
+            <p class="text-gray-600 py-2">
+              <span class="text-black font-bold">EXPANSION</span> is our
+              MISSION.
+            </p>
           </div>
+          <a
+            href="https://wa.me/6281938191551?text=I'm%20interested%20to%20know%20about%20your%20products"
+          >
+            <button
+              class="bg-red-600 text-white py-3 px-8 mt-4 rounded text-lg font-semibold hover:bg-opacity-75"
+            >
+              Call us on Whatsapp
+            </button>
+          </a>
         </div>
+      </div>
     </section>
 
     <!-- Product Selection
@@ -381,7 +419,9 @@
 
     <section id="product" class="bg-white py-16">
       <div class="container mx-auto my-6 lg:px-16 px-4">
-        <h2 data-aos="fade-up" data-aos-duration="1000"
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="1000"
           class="flex items-center leading-normal text-black font-bold lg:text-4xl text-3xl uppercase"
         >
           Product Selection
@@ -391,27 +431,34 @@
       <div
         class="flex items-stretch justify-between mb-10 px-4 overflow-x-auto relative"
       >
-        <a data-aos="fade-up" data-aos-duration="1000" href="#" class="relative group block mr-4 flex-shrink-0">
+        <a
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          href="#"
+          class="relative group block mr-4 flex-shrink-0"
+        >
           <div
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
             <div>
-              <span
-                class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  /></svg
-              ></span>
+              <a href="/products/asphalt">
+                <span
+                  class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                    /></svg
+                ></span>
+              </a>
               <h3 class="text-lg mb-2">ASPHALT</h3>
               <p class="leading-normal text-xs">
                 We are one of the biggest Asphalt Suppliers in Indonesia. With
@@ -423,7 +470,10 @@
                 <br />
                 Drums | Bulk | Platinum Bag
               </p>
-              <a href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your Asphalt Product!" class="sm:px-4">
+              <a
+                href="mailto:bsean@aspindogroup.com?subject=Asphalt Web Inquiry&body=Tell me more about your Asphalt Product!"
+                class="sm:px-4"
+              >
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
@@ -439,38 +489,52 @@
               </a>
             </div>
           </div>
-          <img src="../asset/asphalt.png" alt=""/>
+          <img src="../asset/asphalt.png" alt="" />
         </a>
 
-        <a data-aos="fade-up" data-aos-duration="1000" href="#" class="relative group block mr-4 flex-shrink-0">
+        <a
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          href="#"
+          class="relative group block mr-4 flex-shrink-0"
+        >
           <div
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
             <div>
-              <span
-                class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  /></svg
-              ></span>
+              <a href="/products/lpg">
+                <span
+                  class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                    /></svg
+                ></span>
+              </a>
               <h3 class="text-lg mb-2">LPG</h3>
               <p class="leading-normal text-sm">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores facilis inventore tempore reprehenderit a totam ullam
-                autem dignissimos suscipit aliquam quam voluptatum qui nihil
-                magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
+                Aspindo is now shipping LPGs to houses and FnB industry. With
+                professional services and reliable partners, we are shipping LPG
+                in java island
+                <br />
+                <br />
+                Our products include :
+                <br />
+                50kg | 12kg | Bright Gas
               </p>
-              <a href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your LPG industry!" class="sm:px-4">
+              <a
+                href="mailto:bsean@aspindogroup.com?subject=LPG Web Inquiry&body=Tell me more about your LPG industry!"
+                class="sm:px-4"
+              >
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
@@ -489,35 +553,43 @@
           <img src="../asset/lpg.png" alt="" />
         </a>
 
-        <a data-aos="fade-up" data-aos-duration="1000" href="#" class="relative group block mr-4 flex-shrink-0">
+        <a
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          href="#"
+          class="relative group block mr-4 flex-shrink-0"
+        >
           <div
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
             <div>
-              <span
-                class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  /></svg
-              ></span>
+              <a href="/products/bbm">
+                <span
+                  class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                    /></svg
+                ></span>
+              </a>
               <h3 class="text-lg mb-2">BBM</h3>
               <p class="leading-normal text-sm">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores facilis inventore tempore reprehenderit a totam ullam
-                autem dignissimos suscipit aliquam quam voluptatum qui nihil
-                magnam reiciendis ducimus aspernatur, necessitatibus quaerat!
+                Aspindo expanding its energy business to fuels. We are now
+                shipping Bio-Diesel fuels across the java island.
               </p>
-              <a href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your BBM industry!" class="sm:px-4">
+              <a
+                href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your BBM industry!"
+                class="sm:px-4"
+              >
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
@@ -536,34 +608,44 @@
           <img src="../asset/bbm.png" alt="" />
         </a>
 
-        <a data-aos="fade-up" data-aos-duration="1000" href="#" class="relative group block mr-4 flex-shrink-0">
+        <a
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          href="#"
+          class="relative group block mr-4 flex-shrink-0"
+        >
           <div
             class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer"
           >
             <div>
-              <span
-                class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  /></svg
-              ></span>
+              <a href="/products/seafood">
+                <span
+                  class="mt-2 font-normal text-sm text-red-800 font-mono inline px-2 align-top float-right animate-pulse"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                    /></svg
+                ></span>
+              </a>
               <h3 class="text-lg mb-2">SEAFOOD</h3>
               <p class="leading-normal text-sm">
                 With the help of KML Group, We are expanding our business to
                 seafood export and import.
               </p>
               <p class="text-red-600 font-bold">Stay Tune for more</p>
-              <a href="mailto:bsean@aspindogroup.com?subject=BBM Web Inquiry&body=Tell me more about your Seafood industry!" class="sm:px-4">
+              <a
+                href="mailto:bsean@aspindogroup.com?subject=Seafood Web Inquiry&body=Tell me more about your Seafood industry!"
+                class="sm:px-4"
+              >
                 <button
                   class="uppercase bg-red-600 text-white py-2 px-4 mt-4 rounded text-xs font-semibold hover:bg-opacity-75"
                 >
@@ -592,7 +674,8 @@
       />
     </div>
 
-    <section id="artillery"
+    <section
+      id="artillery"
       class="bg-brown-dark py-10 sm:py-8 containermy-6 lg:px-16 px-4 bg-opacity-75"
     >
       <div class="container mx-auto flex justify-between py-8">
@@ -628,7 +711,9 @@
 
     <section class="bg-white py-16 sm:py-8 text-black">
       <div class="container mx-auto my-6 lg:px-16 px-4">
-        <h2 data-aos="fade-up" data-aos-duration="1000"
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="1000"
           class="flex items-center leading-normal text-black font-bold lg:text-4xl text-3xl uppercase"
         >
           artillery
@@ -636,18 +721,33 @@
       </div>
       <div class="flex flex-wrap">
         <div class="sm:px-16 md:px-32 w-full lg:w-1/2">
-          <h1 data-aos="fade-up" data-aos-duration="1000" class=";g:text-3xl text-2xl font-semibold py-1">Truck</h1>
-          <p data-aos="fade-up" data-aos-duration="1000" class="text-justify text-xl font-light py-2">
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class=";g:text-3xl text-2xl font-semibold py-1"
+          >
+            Truck
+          </h1>
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="text-justify text-xl font-light py-2"
+          >
             In enabling a mobile transportation on land, PT.Aspindo has
             dedicated itself to legally own 200 trucks available to increase
             mobility and provide better customer experience.
           </p>
         </div>
-        <div 
+        <div
           class="w-full lg:w-1/2 md:px-32 hidden lg:block"
           style="text-align: -webkit-center"
         >
-          <img data-aos="fade-up" data-aos-duration="1000" src="../asset/ship.png" alt="ship" />
+          <img
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            src="../asset/ship.png"
+            alt="ship"
+          />
         </div>
       </div>
 
@@ -656,11 +756,26 @@
           class="w-full lg:w-1/2 md:px-32 hidden lg:block"
           style="text-align: -webkit-center"
         >
-          <img data-aos="fade-up" data-aos-duration="1000" src="../asset/ship.png" alt="ship" />
+          <img
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            src="../asset/ship.png"
+            alt="ship"
+          />
         </div>
         <div class="sm:px-16 sm:pt-16 md:px-32 w-full lg:w-1/2">
-          <h1 data-aos="fade-up" data-aos-duration="1000" class="text-2xl lg:text-3xl font-semibold py-1">Ship</h1>
-          <p data-aos="fade-up" data-aos-duration="1000" class="text-justify text-xl font-light py-2">
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="text-2xl lg:text-3xl font-semibold py-1"
+          >
+            Ship
+          </h1>
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="text-justify text-xl font-light py-2"
+          >
             As our business expands from 1980, PT.Aspindo has managed to legally
             own 2 tangker ships to give better services to our business partners
             as well a drastic cost reduction.

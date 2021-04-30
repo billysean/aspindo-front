@@ -2,7 +2,7 @@
   <div
     class="font-sans text-gray-800 leading-normal flex flex-col min-h-screen"
   >
-    <header class="bg-white">
+    <header class="bg-white z-10">
       <nav
         class="container mx-auto flex flex-col sm:flex-row justify-between items-center py-8"
       >
@@ -83,12 +83,10 @@
               >Contact</a
             >
           </li>
-          <li class="mr-8">
-            <a href="/id" class="text-red-600 hover:text-red-400"
+        </ul>
+        <a href="/id" class="text-red-600 hover:text-red-400"
               >ID</a
             >
-          </li>
-        </ul>
       </nav>
     </header>
 
