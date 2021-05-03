@@ -15,8 +15,8 @@
             />
           </a>
         </div>
-        <ul class="uppercase tracking-wide font-bold flex items-center">
-          <li class="mr-8">
+        <ul class="uppercase tracking-wide font-bold flex items-center text-xs md:text-lg">
+          <li class="mr-8 hidden md:block">
             <a href="/" class="text-gray-800 hover:text-gray-600">Home</a>
           </li>
           <li class="mr-8">

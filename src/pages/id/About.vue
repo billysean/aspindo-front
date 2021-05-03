@@ -1,14 +1,14 @@
 <template>
-  <Layout>
+  <ID>
     <section>
       <div class="h-10">
         <div class="image">
-        <img
-          class="absolute sm:h-auto w-screen"
-          style="z-index: -1;"
-          src="../asset/blueprint.jpg"
-          alt=""
-        />
+          <img
+            class="absolute sm:h-auto w-screen"
+            style="z-index: -1"
+            src="../../asset/blueprint.jpg"
+            alt=""
+          />
         </div>
       </div>
       <div
@@ -17,7 +17,7 @@
         <div
           class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left"
         >
-          <div class="uppercase text-white">About Aspindo</div>
+          <div class="uppercase text-white">Tentang Aspindo</div>
         </div>
       </div>
     </section>
@@ -26,31 +26,29 @@
       <div class="mx-auto">
         <div class="flex flex-wrap">
           <div class="md:px-32 w-full lg:w-1/2">
-            <h1 class="text-3xl font-bold py-1">
-              Our Company - Aspindo Group
-            </h1>
+            <h1 class="text-3xl font-bold py-1">Perusahaan - Aspindo Group</h1>
             <p class="text-justify text-xl font-light py-2">
-              Founded in 1980, Aspindo Group has grown into an
-              industry-leading Asphalt manufacturer in Indonesia. Our services
-              include providing solution to infrastructure requirements and
-              shipment across the nation.
+              Didirikan pada tahun 1980, Aspindo Group telah berkembang menjadi
+              salah satu perusahaan terbesar di Indonesia dalam bidang pembuatan
+              aspal. Perusahaan kami melayani dalam pemberian solusi kebutuhan
+              pembangunan infrastruktur dan pengiriman aspal ke seluruh
+              Indonesia.
             </p>
 
             <p class="text-justify text-xl font-light py-2">
-              Aspindo Group head office is located in Surabaya, having a
-              land in Gresik as a warehouse for all operational and manpower to
-              operate and conduct various task concerning making and mixing
-              Asphalt.
+              Kantor utama Aspindo Group terletak di kota Surabaya dan mempunyai
+              tanah di kota Gresik dimana tanah tersebut menjadi tempat
+              penyimpanan sekaligus tempat operasional kebutuhan aspal.
             </p>
 
             <p class="text-justify text-xl font-light py-2">
-              Planning to expand its reach, Aspindo has placed a branch office
-              in SCBD area, Jakarta in 2021.
+              Dalam upaya memperluas jangkauan, Aspindo telah membuka cabang di
+              Jakarta di area SCBD pada tahun 2021.
             </p>
           </div>
-          <div class="w-full lg:w-1/2" style="text-align: -webkit-center;">
+          <div class="w-full lg:w-1/2" style="text-align: -webkit-center">
             <img
-              src="../asset/hq.png"
+              src="../../asset/hq.png"
               alt="headoffice"
               class="w-full h-full"
             />
@@ -59,7 +57,8 @@
       </div>
     </section>
 
-    <section id="artillery"
+    <section
+      id="artillery"
       class="bg-gray-700 py-10 sm:py-8 containermy-6 lg:px-16 px-4"
     >
       <div class="container mx-auto flex justify-between py-8">
@@ -69,7 +68,7 @@
             class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
           >
             <span class="sm:text-3xl lg:text-6xl"> 18</span> <br />
-            Asphalt Awards
+            Penghargaan Aspal
           </button>
         </div>
         <div class="w-1/3 text-center" style="text-align: -webkit-center">
@@ -78,7 +77,6 @@
             class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
           >
             <span class="sm:text-3xl lg:text-6xl"> </span> <br />
-            
           </button>
         </div>
         <div class="w-1/3 text-center" style="text-align: -webkit-center">
@@ -87,13 +85,12 @@
             class="text-white py-3 px-8 mt-4 sm:text-sm md:text-xl lg:text-3xl font-semibold hover:bg-opacity-75"
           >
             <span class="sm:text-3xl lg:text-6xl"> 1</span> <br />
-            LPG Awards
+            Penghargaan LPG
           </button>
         </div>
       </div>
     </section>
-
-  </Layout>
+  </ID>
 </template>
 
 <script>
@@ -135,9 +132,9 @@ export default {
 }
 
 .image {
-    height: 100vh;
-    /* width: 100vw; */
-    background: rgba(0,0,0,.4);
-    overflow: hidden;
+  height: 100vh;
+  /* width: 100vw; */
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
 </style>

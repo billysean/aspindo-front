@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  Vue.component('Id', Indonesia)
+  Vue.component('ID', Indonesia)
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;700&display=swap'

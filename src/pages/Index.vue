@@ -61,7 +61,7 @@
               data-aos-duration="1000"
               data-aos-delay="300"
             >
-              Aspindo Mutual Group
+              Aspindo Group
             </h1>
             <p
               class="text-justify lg:text-xl sm:text-sm font-light py-2"
@@ -69,7 +69,7 @@
               data-aos-duration="1000"
               data-aos-delay="300"
             >
-              Founded in 1980, Aspindo Mutual Group has grown into an
+              Founded in 1980, Aspindo Group has grown into an
               industry-leading Asphalt manufacturer in Indonesia. Our services
               include providing solution to infrastructure requirements and
               shipment across the nation.
