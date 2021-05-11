@@ -69,12 +69,12 @@
       <div class="container mt-4 mx-auto">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div class="col-span-2 justify-self-center">
-            <img src="../../asset/kml.svg" alt="" class="h-40" />
+            <!-- <img src="../../asset/kml.svg" alt="" class="h-40" /> -->
           </div>
           <div class="col-span-2 justify-self-center">
             <h1 class="lg:text-6xl text-3xl font-bold">Seafood</h1>
             <p align="justify" class="px-30">
-              Partnering with KML (PT.Kelola Mina Laut) group, enables Aspindo
+              Partnering with one of the giant seafood industry in Indonesia has enable Aspindo
               to expand its market to exports & imports industry. <br />
               We will bring you updates on this business section.
               <br />
